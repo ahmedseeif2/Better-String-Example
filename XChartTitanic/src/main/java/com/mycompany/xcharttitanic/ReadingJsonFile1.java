@@ -28,7 +28,7 @@ public class ReadingJsonFile1 {
             ObjectMapper objectMapper = new ObjectMapper ();
             objectMapper.configure (DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
             
-            InputStream input = new FileInputStream ("E:\\AAITI\\OneDrive_1_5-6-2021\\9. Java & UML programming\\Day5\\Data_to_use\\titanic.csv");
+            InputStream input = new FileInputStream ("E:\\AAITI\\OneDrive_1_5-6-2021\\9. Java & UML programming\\Day5\\titanic.json");
             //Read JSON file
             allPassengers = objectMapper.readValue(input, new TypeReference<List<TitanicPassenger1>>(){});
             return allPassengers;

@@ -12,7 +12,7 @@ import java.util.List;
  *
  * @author alamia
  */
-public class MainClass1 {
+public class MainClass {
     
     
      public static void main(String[] args) throws IOException{
