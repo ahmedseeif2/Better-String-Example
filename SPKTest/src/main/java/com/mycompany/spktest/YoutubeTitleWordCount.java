@@ -25,11 +25,10 @@ public class YoutubeTitleWordCount {
         // LOAD DATASETS
         JavaRDD<String> videos = sparkContext.textFile ("E:\\AAITI\\OneDrive_1_5-6-2021\\9. Java & UML programming\\Day6\\USvideos.csv");
         
-        System.out.println ("================= Popular Titles ================");
+        System.out.println (" Popular Titles ");
         popularTitle(videos);
-        System.out.println ("================= Popular Tags ==================");
+        System.out.println (" Popular Tags ");
         popularTags(videos);
-        System.out.println ("=================================================");
    
         
 
